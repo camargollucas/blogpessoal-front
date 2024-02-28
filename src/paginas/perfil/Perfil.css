@@ -1,0 +1,16 @@
+/* perfil.css */
+
+.perfil-background {
+    width: 40vw; /* 100% da largura da viewport */
+    height: 50vh; /* 50% da altura da viewport (ajuste conforme necessário) */
+    object-fit: cover;
+  }
+  
+  .perfil-foto {
+    /* Ajuste a propriedade object-fit conforme necessário para a imagem de perfil */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Outras propriedades para ajustar a imagem de perfil conforme necessário */
+  }
+  
