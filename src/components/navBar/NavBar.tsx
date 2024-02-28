@@ -24,7 +24,7 @@ function Navbar() {
         <div className="container flex justify-between text-lg">
           <Link to='/home' className='text-2xl font-bold uppercase'>Diário Pokémon</Link>
           <div className='flex gap-7 navbar-links'>
-            <div className='nav-item gap-2'>
+            <div className='nav-item'>
           
             <HouseSimple size={18}></HouseSimple><Link to='/home' className='hover:underline'>Home</Link>
 
