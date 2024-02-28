@@ -24,6 +24,7 @@ function Navbar() {
         <div className="container flex justify-between text-lg">
           <Link to='/home' className='text-2xl font-bold uppercase'>Diário Pokémon</Link>
           <div className='flex gap-4 navbar-links'>
+            <div className='nav-item'>
           
             <HouseSimple size={18}></HouseSimple><Link to='/home' className='hover:underline'>Home</Link>
 
@@ -38,7 +39,7 @@ function Navbar() {
             <GameController size={18}></GameController><Link to='/pokedex' className=' hover:underline'>Pokédex</Link>
 
             <SignOut size={18}></SignOut><Link to='' onClick={logout} className=' hover:underline'>Sair</Link>
-
+            </div>
           </div>
         </div>
       </div>

@@ -7,6 +7,7 @@
   .navbar-links {
     display: flex;
     gap: 16px;
+    margin-left: auto; 
   }
   
   .navbar-links a {
@@ -18,4 +19,8 @@
   .navbar-links a:hover {
    color: #8ac3a3; 
   }
-  
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
