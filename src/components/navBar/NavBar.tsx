@@ -23,23 +23,24 @@ function Navbar() {
       <div className='navbar-container w-full bg-emerald-900 text-white flex justify-center py-4'>
         <div className="container flex justify-between text-lg">
           <Link to='/home' className='text-2xl font-bold uppercase'>Diário Pokémon</Link>
-          <div className='flex gap-7 navbar-links'>
-            <div className='nav-item'>
-          
-            <HouseSimple size={18}></HouseSimple><Link to='/home' className='hover:underline'>Home</Link>
 
-            <List size={18}></List><Link to='/postagens' className=' hover:underline'>Postagens</Link>
+          <div className='navbar-links flex gap-7'>
 
-            <List size={18}></List><Link to='/temas' className=' hover:underline'>Temas</Link>
 
-            <PlusSquare size={18}></PlusSquare><Link to='/cadastroTema' className=' hover:underline'>Cadastrar tema</Link>
+            <div className='nav-item gap-2'><HouseSimple size={18}></HouseSimple><Link to='/home' className='hover:underline'>Home</Link></div>
 
-            <User size={18}></User><Link to='/perfil' className=' hover:underline'>Perfil</Link>
+            <div className='nav-item gap-2'><List size={18}></List><Link to='/postagens' className=' hover:underline'>Postagens</Link></div>
 
-            <GameController size={18}></GameController><Link to='/pokedex' className=' hover:underline'>Pokédex</Link>
+            <div className='nav-item gap-2'><List size={18}></List><Link to='/temas' className=' hover:underline'>Temas</Link></div>
 
-            <SignOut size={18}></SignOut><Link to='' onClick={logout} className=' hover:underline'>Sair</Link>
-            </div>
+            <div className='nav-item gap-2'><PlusSquare size={18}></PlusSquare><Link to='/cadastroTema' className=' hover:underline'>Cadastrar tema</Link></div>
+
+            <div className='nav-item gap-2'><User size={18}></User><Link to='/perfil' className=' hover:underline'>Perfil</Link></div>
+
+            <div className='nav-item gap-2'><GameController size={18}></GameController><Link to='/pokedex' className=' hover:underline'>Pokédex</Link></div>
+
+            <div className='nav-item gap-2'><SignOut size={18}></SignOut><Link to='' onClick={logout} className=' hover:underline'>Sair</Link></div>
+
           </div>
         </div>
       </div>
