@@ -23,7 +23,7 @@ function Navbar() {
       <div className='navbar-container w-full bg-emerald-900 text-white flex justify-center py-4'>
         <div className="container flex justify-between text-lg">
           <Link to='/home' className='text-2xl font-bold uppercase'>Diário Pokémon</Link>
-          <div className='flex gap-6 navbar-links'>
+          <div className='flex gap-7 navbar-links'>
             <div className='nav-item gap-2'>
           
             <HouseSimple size={18}></HouseSimple><Link to='/home' className='hover:underline'>Home</Link>
